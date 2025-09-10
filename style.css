@@ -1,0 +1,24 @@
+:root {
+    --text-color:#010101;
+    --link-color:#4a76ee;
+    --background-color:#eeeff1;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;/*width agar 200 set ki toh utni hi rahegi*/
+}
+html{
+    scroll-behavior: smooth;/*It controls how scrolling happens when you jump to an element (like using anchor links) or when you programmatically scroll with JS.
+    //html meh isisliye use kiya taki sare elements ko mile
+    */
+}
+body{
+    font-family:'Poppins',sans-serif;
+    background-color:var(--background-color);
+    /*root element ko copy karta hai*/
+}
+a{
+    color:var(--link-color);
+    text-decoration: none;
+}
